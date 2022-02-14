@@ -1,0 +1,29 @@
+{
+  "name": "messages-desktop",
+  "version": "1.0.0",
+  "description": "Thin wrapper around messages for web to create a native application using electron.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx electron .",
+    "build-win": "npx electron-packager . messages-desktop --platform=win32 --arch=x64 --out=release-builds --icon=./assets/icon.ico --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arunnalla/messages-desktop.git"
+  },
+  "keywords": [
+    "messages-for-web",
+    "messages",
+    "google-messages"
+  ],
+  "author": "Arun Nalla <hello@arunnalla.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunnalla/messages-desktop/issues"
+  },
+  "homepage": "https://github.com/arunnalla/messages-desktop#readme",
+  "devDependencies": {
+    "electron": "^17.0.1",
+    "electron-packager": "^15.4.0"
+  }
+}
