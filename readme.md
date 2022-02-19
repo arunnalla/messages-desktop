@@ -3,3 +3,21 @@
 </div>
 
 An electron wrapper over messages for web.
+
+## Install
+
+```
+npm install
+```
+
+## Run
+
+```
+npx electron .
+```
+
+## Build for Windows
+
+```
+npm run build-win
+```
