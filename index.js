@@ -1,14 +1,14 @@
-const { app, BrowserWindow } = require('electron');
-const path = require('path');
-const url = require('url');
+const { app, BrowserWindow } = require('electron')
+const path = require('path')
+const url = require('url')
 
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
     icon: path.join(__dirname, 'assets/icon.png'),
-  });
-  win.setMenuBarVisibility(false);
+  })
+  win.setMenuBarVisibility(false)
 
   win.loadURL(
     url.format({
@@ -16,7 +16,7 @@ function createWindow() {
       protocol: 'https',
       slashes: true,
     })
-  );
+  )
 }
 
-app.on('ready', createWindow);
+app.on('ready', createWindow)

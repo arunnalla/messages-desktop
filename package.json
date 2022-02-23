@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/arunnalla/messages-desktop#readme",
   "devDependencies": {
+    "@arunnalla/prettier-config": "^1.0.0",
     "electron": "^17.0.1",
     "electron-packager": "^15.4.0"
-  }
+  },
+  "prettier": "@arunnalla/prettier-config"
 }
